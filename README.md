@@ -19,5 +19,5 @@
 6. After pushing it, go to github and click 'pull request' button to request merge your branch into the master. Repo owner will review your code and merge it or reject if there is a conflict.
 
 7. After all branches are merged to the master branch, you can update your local master branch
-- git pull -u origin master 
+- git pull origin master 
 
