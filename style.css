@@ -24,6 +24,11 @@ body {
   --green: #4caf50;
   --red: #f44336;
 }
+.main{
+    display: grid;
+    grid-template-columns: auto;
+   
+}
 /*********
  FIRST CARD 
  *********/
@@ -282,11 +287,12 @@ footer a {
 /*End of Footer*/
 
 /* Media queries */
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 600px) {
 
-  .main {
-    display: flex;
-    flex-direction: column;
+  div .main {
+  
+    grid-template-columns: 30% 50% 20%;
+    
   }
 
   /* 1st, 2nd cards */
