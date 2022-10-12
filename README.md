@@ -2,7 +2,7 @@
 - 1. In your terminal type following commands
 - git clone https://github.com/elmirakim/social_network.git
 - 2. Create a branch name your initials - part number (ex. EK-8-11 ) by typing following command
-- git branch EK-8-11
+- git checkout -b EK-8-11
 - 3. After finishing your part use commit to save your work to the branch 
 - git add .
 - git commit -m 'your change'
