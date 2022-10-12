@@ -3,6 +3,7 @@ body {
   box-sizing: border-box;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--lightGrey);
 }
 
 :root {
@@ -22,6 +23,98 @@ body {
   --lightGrey: #f5f7f8;
   --green: #4caf50;
   --red: #f44336;
+}
+/*********
+ FIRST CARD 
+ *********/
+
+/* box */
+.box {
+  background-color: var(--white);
+  box-shadow: var(--boxShadow);
+  margin: var(--gap-width);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* My profile */
+.profile h1 {
+  text-align: center;
+}
+
+/* image */
+.profile .img_container {
+  width: 50%;
+  margin: auto;
+}
+
+.profile img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+hr {
+  color: var(--iconGrey);
+}
+
+/* icon same line with text */
+.profile_rows div {
+  display: flex;
+  align-items: center;
+}
+
+/* icon */
+.profile_rows div i,
+.networks div i {
+  margin: 20px;
+  color: var(--iconGrey);
+}
+
+/*********
+ SECOND CARD 
+ *********/
+.networks {
+  padding: 20px 0;
+}
+
+.networks .groups_events {
+  display: flex;
+  align-items: center;
+  background-color: var(--blue);
+  color: var(--white);
+  cursor: pointer;
+}
+
+.networks .groups_events:hover {
+  color: var(--black);
+  background-color: var(--superDarkGrey);
+}
+
+/* box networks */
+.networks .groups_events i {
+  color: var(--white);
+}
+
+.networks .groups_events:hover * {
+  color: var(--black);
+}
+
+/* some text some other text */
+.networks p {
+  margin-left: 20px;
+}
+
+.networks_rows {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 1em;
+  width: 90%;
+  margin: 1em auto 0;
+}
+
+.networks_rows img {
+  width: 100%;
+  height: 100%;
 }
 
 /* Elmira - part 8 */
@@ -93,13 +186,7 @@ body {
     background-color: var(--superDarkGrey);
     color: black;
 }
-/* Media queries */
-@media screen and (min-width: 400px) {
-  .main {
-    display: flex;
-    flex-direction: column;
-  }
-}
+
 /*Interest*/
 .interest-container {
     color: var(--black);
@@ -190,3 +277,17 @@ footer a {
     color: var(--white);
 }
 /*End of Footer*/
+
+/* Media queries */
+@media screen and (min-width: 400px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* 1st, 2nd cards */
+  .networks_rows {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
