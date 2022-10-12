@@ -74,7 +74,7 @@ hr {
  SECOND CARD 
  *********/
 .networks {
-  padding: 20px 0;
+  padding: 0 0 20px;
 }
 
 .networks .groups_events {
@@ -99,6 +99,11 @@ hr {
   color: var(--black);
 }
 
+/* only first row */
+.first_row_groups_events {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
 /* some text some other text */
 .networks p {
   margin-left: 20px;
