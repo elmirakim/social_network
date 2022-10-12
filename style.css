@@ -33,8 +33,8 @@ body {
 }
 .user img{
     border-radius: 50px;
-    width:100px;
-    height: 100px;
+    width:80px;
+    height: 80px;
     object-fit: cover;
 }
 .user{
@@ -42,8 +42,8 @@ body {
     align-items: center;
 }
 .name{
-    font-size: 25px;
-    margin-left: 10px;
+    font-size: 20px;
+    margin-left: 15px;
 
 }
 .top{
@@ -57,10 +57,41 @@ body {
 .content img{
     width: 100%;
     object-fit: cover;
+    margin-bottom: 20px;
 }
 .card8 hr{
     border: 0.5px solid var(--lightGrey);
-
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+.top-text{
+    margin-bottom: 20px;
+}
+.content{
+    margin-bottom: 20px;
+}
+.bootcamp-link{
+    
+    
+}
+.bootcamp-link a{
+    text-decoration: none;
+}
+.bootcamp-link a:hover{
+    text-decoration:none ;
+}
+.card8-buttons button{
+    background-color: var(--blue);
+    padding: 10px 20px;
+    border: none;
+    color: white;
+}
+.card8-buttons i{
+    margin-right: 5px;
+}
+.card8-buttons button:hover{
+    background-color: var(--superDarkGrey);
+    color: black;
 }
 /* Media queries */
 @media screen and (min-width: 400px) {
