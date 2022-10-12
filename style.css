@@ -93,13 +93,7 @@ body {
     background-color: var(--superDarkGrey);
     color: black;
 }
-/* Media queries */
-@media screen and (min-width: 400px) {
-  .main {
-    display: flex;
-    flex-direction: column;
-  }
-}
+
 /*Interest*/
 .interest-container {
     color: var(--black);
@@ -188,3 +182,11 @@ footer a {
     color: var(--white);
 }
 /*End of Footer*/
+
+/* Media queries */
+@media screen and (min-width: 400px) {
+    .main {
+      display: flex;
+      flex-direction: column;
+    }
+  }
