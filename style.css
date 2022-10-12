@@ -147,7 +147,27 @@ body {
     cursor: pointer;
     background-color: var(--lightGrey);
 }
+/* ERLEST 11 12 */
+.first {
+    border: 1px solid gray;
+    padding: 40px;
+    margin: 10px;
+    height: 100px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(122, 121, 121, 0.5);
+}
 
+.second {
+    border: 1px solid gray;
+    padding: 40px;
+    margin: 10px;
+    height: 140px;
+    font-size: 33px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(122, 121, 121, 0.5);
+}
 
 /*Footer*/
 
