@@ -24,6 +24,44 @@ body {
   --red: #f44336;
 }
 
+/* Elmira - part 8 */
+.card8{
+    margin: var(--gap-width);
+    box-shadow: var(--boxShadow);
+    border-radius: 10px;
+    padding: 15px;
+}
+.user img{
+    border-radius: 50px;
+    width:100px;
+    height: 100px;
+    object-fit: cover;
+}
+.user{
+    display: flex;
+    align-items: center;
+}
+.name{
+    font-size: 25px;
+    margin-left: 10px;
+
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.time{
+    color: var(--iconGrey);
+}
+.content img{
+    width: 100%;
+    object-fit: cover;
+}
+.card8 hr{
+    border: 0.5px solid var(--lightGrey);
+
+}
 /* Media queries */
 @media screen and (min-width: 400px) {
   .main {
