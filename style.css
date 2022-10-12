@@ -149,24 +149,22 @@ body {
 }
 /* ERLEST 11 12 */
 .first {
-    border: 1px solid gray;
     padding: 40px;
-    margin: 10px;
+    margin: 15px;
     height: 100px;
-    /* width: 150px; */
     text-align: center;
-    box-shadow: 5px 5px 10px rgba(122, 121, 121, 0.5);
+    box-shadow: var(--boxShadow);
+    border-radius: 10px;
 }
 
 .second {
-    border: 1px solid gray;
     padding: 40px;
-    margin: 10px;
+    margin: 15px;
     height: 140px;
     font-size: 33px;
-    /* width: 150px; */
     text-align: center;
-    box-shadow: 5px 5px 10px rgba(122, 121, 121, 0.5);
+    box-shadow: var(--boxShadow);
+    border-radius: 10px;
 }
 
 /*Footer*/
