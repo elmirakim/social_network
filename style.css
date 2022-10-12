@@ -31,3 +31,23 @@ body {
     flex-direction: column;
   }
 }
+/*Footer*/
+
+footer{
+    color: var(--white);
+    padding: var(--gap-width);   
+}
+.footer-top{
+    background-color:var(--blue);
+}
+.footer-top h5{
+    font-size: 18px;
+    margin: 10px 0px;
+    font-weight: 300;
+}
+.footer-bottom {
+background-color:var(--darkBlue);
+}
+footer a {
+    color: var(--white);
+}
