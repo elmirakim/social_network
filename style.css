@@ -207,7 +207,6 @@ hr {
     box-sizing: inherit;
     display: inline-block;
     margin: var(--gap-width); 
-    width: 100%;
     
 }
 .interest-box{
