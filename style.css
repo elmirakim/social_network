@@ -103,15 +103,19 @@ body {
 /*Interest*/
 .interest-container {
     color: var(--black);
-    padding: 0.01em 16px;
+    /*padding: 0.01em 16px;*/
     background-color: var(--white);
     box-shadow: var(--boxShadow);
     border-radius: 5px;
     box-sizing: inherit;
     display: inline-block;
+    margin: var(--gap-width); 
+    width: 100%;
+    
 }
 .interest-box{
-    padding: 0.01em 16px;   
+    padding: 0.01em 16px;  
+    
 }
 .interest-container div p {
     display: block;
@@ -120,7 +124,47 @@ body {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+.interest-container .interest-box  .span{
+   color: var(--white);
+}
+.interest-container .interest-box  span{
+    display: inline-block;
+    padding: 0px 7px;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 4px;
+}
 
+/*interest-item colors*/
+.news{
+    background-color:#076490;
+}
+.seytech{
+    background-color:#076490; ;
+}
+.almos{
+    background-color: #199de5;
+}
+.games{
+    background-color: #199de5;
+}
+.friends{
+    background-color: #199de5;
+}
+.food{
+    background-color:#9eb1bb;
+}
+.design{
+    background-color: #becbd2;
+}
+.art{
+    background-color: #dfe5e8;
+}
+.photos{
+    color: #000;
+    background-color: #f5f7f8;
+
+}
 /*Alert */
  .alert  {
     background-color: var(--grey);
