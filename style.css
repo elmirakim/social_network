@@ -197,6 +197,73 @@ hr {
   height: 100%;
 }
 
+/* Daniar's part */
+
+.status {
+  /* display: flex; */
+  /* flex-direction: column; */
+  box-shadow: 10px 10px 10px #888888; 
+  box-sizing: inherit;
+  
+  }
+  
+  .status input {
+      padding: 10px;
+      max-width: 100%;
+  }
+  
+  .status button {
+      padding: 10px;
+      width: 25%;
+      margin-top: 10px;
+      color: white;
+      background-color: #199de5;
+  
+  }
+  
+  .rachel {
+      display: flex;
+  }
+  
+  .rachel img {
+      border-radius: 50%;
+  }
+  
+  .seytech_images img {
+      width: 200px;
+  }
+  
+  
+  .rachel_sine {
+      box-shadow: 10px 10px 10px 10px #888888; 
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+  }
+  
+  button.Like {
+      padding: 10px;
+      width: 20%;
+      margin-top: 10px;
+      color: white;
+      background-color: #199de5;}
+  
+  button.Comment {
+      padding: 10px;
+      width: 30%;
+      margin-top: 10px;
+      color: white;
+      background-color: #199de5;
+  
+  }
+  
+  button:hover {
+      color:black;
+      background-color: #888888;
+      cursor: pointer;
+  
+  }
+
 /* Elmira - part 8 */
 .card8{
     margin: var(--gap-width);
