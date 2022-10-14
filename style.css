@@ -208,6 +208,11 @@ hr {
   padding: 15px;
   
   }
+  .status hr{
+    border: 0.5px solid var(--grey);
+    margin-bottom: 30px;
+    margin-top: 40px;
+  }
   
   .status input {
       padding: 10px;
@@ -237,8 +242,9 @@ hr {
       border-radius: 50%;
   }
   
-  .seytech_images img {
-      width: 200px;
+  .seytech_images img{
+    width: 45%;
+    display: inline-block;
   }
   
   
@@ -311,7 +317,7 @@ hr {
     margin-bottom: 20px;
 }
 .card8 hr{
-    border: 0.5px solid var(--lightGrey);
+    border: 0.5px solid var(--grey);
     margin-bottom: 30px;
     margin-top: 40px;
 }
