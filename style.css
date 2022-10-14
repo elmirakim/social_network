@@ -200,6 +200,8 @@ hr {
 /* Daniar's part */
 
 .status {
+  display: flex;
+  flex-direction: column;
   box-shadow: var(--boxShadow); 
   box-sizing: inherit;
   margin: var(--gap-width);
@@ -223,7 +225,13 @@ hr {
   
   .rachel {
       display: flex;
-  }
+      flex-direction: row;
+      align-items:center;
+      justify-content: space-between;
+
+    }
+
+  
   
   .rachel img {
       border-radius: 50%;
