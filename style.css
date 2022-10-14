@@ -200,10 +200,10 @@ hr {
 /* Daniar's part */
 
 .status {
-  /* display: flex; */
-  /* flex-direction: column; */
-  box-shadow: 10px 10px 10px #888888; 
+  box-shadow: var(--boxShadow); 
   box-sizing: inherit;
+  margin: var(--gap-width);
+  padding: 15px;
   
   }
   
@@ -235,10 +235,13 @@ hr {
   
   
   .rachel_sine {
-      box-shadow: 10px 10px 10px 10px #888888; 
-      margin-top: 10px;
-      display: flex;
-      flex-direction: column;
+      box-shadow: var(--boxShadow);
+    margin: var(--gap-width);
+    padding: 15px;
+
+    
+     
+      
   }
   
   button.Like {
