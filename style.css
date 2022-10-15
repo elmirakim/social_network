@@ -4,70 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-html,
-body {
-  height: 100%;
-  width: 100%;
-  background-color: whitesmoke;
-}
-header {
-  background: skyblue;
-  position: relative;
-  height: 50px;
-}
-.header-top {
-  position: fixed;
-  display: flex;
-  width: 100%;
-}
-.home-link {
-  color: white;
-  background: blue;
-  display: block;
-  padding: 15px 10px;
-  width: 40%;
-  text-decoration: none;
-  font-size: 18px;
-}
-a:hover {
-  color: black;
-  background-color: grey;
-  cursor: pointer;
-}
-span {
-  margin-left: 10px;
-}
-.main-nav {
-  /*   when screen is bigger change display to flex */
-  background: skyblue;
-  width: 60%;
-  list-style: none;
-  display: flex;
-}
-.main-nav li {
-  width: 15%;
-  display: none;
-}
-.main-nav li a {
-  background: skyblue;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  color: white;
-}
-.main-nav li a:hover {
-  background-color: white;
-  color: black;
-}
-@media screen and (min-width: 600px) {
-  .main-nav li {
-    display: block;
-  }
-}
 
-/* CSS Ermek end */
 body {
   margin: 0;
   box-sizing: border-box;
@@ -94,13 +31,70 @@ body {
   --green: #4caf50;
   --red: #f44336;
 }
-.main{
-    display: grid;
-    grid-template-columns: auto;
-   
+
+.main {
+  display: grid;
+  grid-template-columns: auto;
+  max-width: 1400px;
+  margin: auto;
 }
+
+header {
+  background: var(--blue);
+  position: relative;
+  height: 50px;
+}
+.header-top {
+  position: fixed;
+  display: flex;
+  width: 100%;
+}
+.home-link {
+  color: white;
+  background: var(--darkBlue);
+  display: block;
+  padding: 15px 10px;
+  width: 40%;
+  text-decoration: none;
+  font-size: 18px;
+}
+a:hover {
+  color: black;
+  background-color: grey;
+  cursor: pointer;
+}
+span {
+  margin-left: 10px;
+}
+.main-nav {
+  /*   when screen is bigger change display to flex */
+  background: var(--blue);
+  width: 60%;
+  list-style: none;
+  display: flex;
+}
+.main-nav li {
+  width: 15%;
+  display: none;
+}
+.main-nav li a {
+  background: var(--blue);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: white;
+}
+.main-nav li a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* CSS Ermek end */
+
 /*********
- FIRST CARD 
+ FIRST CARD Denis
  *********/
 
 /* box */
@@ -181,7 +175,7 @@ hr {
 }
 /* some text some other text */
 .networks p {
-  margin-left: 20px;
+  margin: 20px;
 }
 
 .networks_rows {
@@ -206,7 +200,8 @@ hr {
   box-sizing: inherit;
   margin: var(--gap-width);
   padding: 15px;
-  
+  background-color: var(--white);
+  border-radius: 10px;
   }
   .status hr{
     border: 0.5px solid var(--grey);
@@ -225,7 +220,8 @@ hr {
       margin-top: 10px;
       color: white;
       background-color: #199de5;
-  
+    outline: none;
+    border: none;
   }
   
   .rachel {
@@ -252,8 +248,8 @@ hr {
       box-shadow: var(--boxShadow);
     margin: var(--gap-width);
     padding: 15px;
-
-    
+  background-color: var(--white);
+  border-radius: 10px;
      
       
   }
@@ -263,7 +259,10 @@ hr {
       width: 20%;
       margin-top: 10px;
       color: white;
-      background-color: #199de5;}
+      background-color: #199de5;
+      outline: none;
+      border: none;
+}
   
   button.Comment {
       padding: 10px;
@@ -271,8 +270,9 @@ hr {
       margin-top: 10px;
       color: white;
       background-color: #199de5;
-  
-  }
+      outline: none;
+      border: none;
+}
   
   button:hover {
       color:black;
@@ -280,13 +280,15 @@ hr {
       cursor: pointer;
   
   }
+/* Denis - combine card 7 with card 8 */
 
 /* Elmira - part 8 */
-.card8{
+.card7, .card8{
     margin: var(--gap-width);
     box-shadow: var(--boxShadow);
     border-radius: 10px;
     padding: 15px;
+  background-color: var(--white);
 }
 .user img{
     border-radius: 50px;
@@ -349,7 +351,7 @@ hr {
 }
 /* part 9 */
 .pro{
-  
+  background-color: var(--white);
   height: fit-content;
   padding: 15px 0 0 0;
   text-align:center;
@@ -500,6 +502,7 @@ margin-left: 15px;
     text-align: center;
     box-shadow: var(--boxShadow);
     border-radius: 10px;
+  background-color: var(--white);
 }
 
 .second {
@@ -510,6 +513,7 @@ margin-left: 15px;
     text-align: center;
     box-shadow: var(--boxShadow);
     border-radius: 10px;
+  background-color: var(--white);
 }
 
 /*Footer*/
@@ -536,11 +540,12 @@ footer a {
 
 /* Media queries */
 @media screen and (min-width: 600px) {
+  .main-nav li {
+    display: block;
+  }
 
   div .main {
-  
     grid-template-columns: 30% 50% 20%;
-    
   }
 
   /* 1st, 2nd cards */
