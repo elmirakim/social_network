@@ -415,10 +415,10 @@ button:hover {
 }
 
 .block {
-  display: block;
-  width: 100%;
+ 
+  width: 50%;
   border: none;
-  background-color: silver;
+  background-color:var(--grey);
   color: black;
   padding: 7px 14px;
   font-size: 15px;
@@ -428,7 +428,7 @@ button:hover {
 }
 
 .block:hover {
-  background-color: #ddd;
+  background-color:var(--superDarkGrey);
   color: black;
 }
 
