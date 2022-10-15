@@ -401,6 +401,61 @@ margin-left: 15px;
 .block{
   transition-duration: 0.4s;
 }
+/* Rukhillo Card 10*/
+.card10{
+  color: #000;
+  background-color: var(--white);
+  box-shadow: var(--boxShadow);
+  border-radius: 5px;
+  padding: 2em 16px;
+  margin: var(--gap-width);
+  box-sizing: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.higher-part{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.lower-box{
+opacity: 0.5;
+display: flex ;
+justify-content: center;
+padding:  16px;
+}
+div button{
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+ div button i{
+  color: #fff;
+}
+div .accept i{
+  background-color: #4caf50;
+  text-align: center;
+  padding: 8px 25px;
+}
+div .decline i{
+  background-color: #f44336;
+  text-align: center;
+  padding: 8px 25px;
+}
+div button i:hover {
+  background-color:var(--darkGrey);
+  color: #000;
+}
+@media screen and(min-width:768) {
+  .lower-box div button {
+    display: block;
+    width: 100%;
+  }
+}
 
 /*Interest*/
 .interest-container {
